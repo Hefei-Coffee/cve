@@ -33,12 +33,12 @@ Sec-Fetch-User: ?1
 X-Forwarded-For: 192.168.1.23
 Priority: u=1
 ```
-![image](https://github.com/Hefei-Coffee/cve/assets/168982375/b2bcd1e3-6c44-4782-b0be-8ef4fc8176ba)
-
+![image](https://github.com/Hefei-Coffee/cve/assets/168982375/59ba8557-1ca9-4642-8bc7-a9efa0e03df1)
 
 ## code analysis:
 
-The id parameter in admin_class.php is controllable and directly brought into the SQL statement for execution, causing SQL injection.
+The $id parameter in the manage_product.php file is controllable and can be directly brought into the database to execute SQL statements.
 
-![image](https://github.com/Hefei-Coffee/cve/assets/168982375/dfe9f651-8c70-40b4-8142-3232ccb2c2d5)
+![image](https://github.com/Hefei-Coffee/cve/assets/168982375/40f17833-6626-48d8-868b-b7a4c1092018)
+
 
